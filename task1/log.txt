@@ -1,0 +1,18 @@
+commit 19856c2be6c0edf4b6138b08f289ec3a34520aa7 (HEAD -> Lab1)
+Author: IAShapiro <igar.shapira@gmail.com>
+Date:   Fri Feb 14 19:23:28 2020 +0300
+
+    add status.txt
+
+commit a42f55992bc095bd48ec47e61ea1603489eb1528
+Author: IAShapiro <igar.shapira@gmail.com>
+Date:   Fri Feb 14 19:22:20 2020 +0300
+
+    add .gitignore
+
+commit 4f4f8c01cec3e1aeebacb8c8690a89a1786d80e2 (origin/master, master)
+Author: IAShapiro <igar.shapira@gmail.com>
+Date:   Fri Feb 14 19:17:47 2020 +0300
+
+    init commit
+
