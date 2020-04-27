@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "b781e42e-04cc-40a9-b9bf-8aeb98285d7a",
+		"name": "Logo API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get logo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://logo.clearbit.com/bsu.by",
+					"protocol": "https",
+					"host": [
+						"logo",
+						"clearbit",
+						"com"
+					],
+					"path": [
+						"bsu.by"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Size of logo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://logo.clearbit.com/tut.by?size=350",
+					"protocol": "https",
+					"host": [
+						"logo",
+						"clearbit",
+						"com"
+					],
+					"path": [
+						"tut.by"
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "350"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "+ format & grayscale",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://logo.clearbit.com/google.com/?size=350&grayscale=true&format=jpg",
+					"protocol": "https",
+					"host": [
+						"logo",
+						"clearbit",
+						"com"
+					],
+					"path": [
+						"google.com",
+						""
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "350"
+						},
+						{
+							"key": "grayscale",
+							"value": "true"
+						},
+						{
+							"key": "format",
+							"value": "jpg"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "4064faef-1437-4523-a7da-e28d933c2fdb",
+		"name": "Newton",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Logarithm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newton.now.sh/log/2.72|7.389",
+					"protocol": "https",
+					"host": [
+						"newton",
+						"now",
+						"sh"
+					],
+					"path": [
+						"log",
+						"2.72|7.389"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Area",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newton.now.sh/area/2:3|x^(-3)+x^2-2^1",
+					"protocol": "https",
+					"host": [
+						"newton",
+						"now",
+						"sh"
+					],
+					"path": [
+						"area",
+						"2:3|x^(-3)+x^2-2^1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Derive",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newton.now.sh/derive/(x^2+1)^(-1)*(x^3-8)",
+					"protocol": "https",
+					"host": [
+						"newton",
+						"now",
+						"sh"
+					],
+					"path": [
+						"derive",
+						"(x^2+1)^(-1)*(x^3-8)"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
