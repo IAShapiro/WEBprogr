@@ -1,0 +1,349 @@
+html {
+    font-family: 'Allerta', sans-serif;
+    background-color: #04046f;
+}
+
+body, .center {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header, footer {
+    padding: 1vmin 6vmin 1vmin 6vmin;
+    max-height: max-content;
+    font-size: 2vmin;
+    background-color: rgb(47, 65, 118);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.authorised-user-feed {
+    margin: 1vmin;
+    padding: 0;
+    width: 60%;
+    align-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project-name {
+    max-height: max-content;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 3vmin;
+    color: rgb(252, 245, 246);
+}
+
+header {
+    margin-bottom: 1%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    color: rgb(252, 245, 246);
+}
+
+.header-nav-user-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.log-out {
+    width: 10vw;
+    margin: 10%;
+    border: none;
+    background-color: inherit;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.header-user-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-user-wrapper img {
+    height: 6vmin;
+    width: 6vmin;
+    border-radius: 50%;
+    text-align: center;
+}
+
+footer {
+    margin-top: 1%;
+    color: rgb(26, 25, 25);
+}
+
+.developer-info, .version-info {
+    display: flex;
+    flex-flow: column;
+    align-items: self-start;
+    justify-content: space-between;
+}
+
+aside {
+    margin-left: 1%;
+    padding: 6vmin 1vmin 6vmin 1vmin;
+    height: max-content;
+    width: 22vw;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2vmin;
+    background-color: rgb(47, 65, 118);
+    border-radius: 20px;
+}
+
+.filters {
+    padding-bottom: 1vmin;
+    color: rgba(252, 245, 246, 0.788);
+
+}
+
+.hline {
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    border-top: 2px solid rgba(255, 255, 255, 0.568);
+}
+
+.filter-container {
+    margin-top: 0.2vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font: inherit;
+    color: rgba(252, 245, 246, 0.788)
+}
+
+.search-by-date {
+    display: flex;
+    flex-direction: column;
+    font-size: inherit;
+    color: rgba(252, 245, 246, 0.788)
+}
+
+.filter-date-container {
+    margin-top: 0.6vmin;
+    margin-left: 2vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font: inherit;
+    color: rgba(252, 245, 246, 0.788)
+}
+
+.filter-date-container label {
+    font-size: 1.7vmin;
+    align-self: center;
+}
+
+label {
+    margin-right: 1vmin;
+    font-size: 1em;
+}
+
+input {
+    margin-top: 0.2vmin;
+    padding: 0.2vmin 0.2vmin 0.2vmin 1vmin;
+    width: 60%;
+    border: 1px solid rgba(252, 245, 246, 0.85);
+    border-radius: 4px;
+    font-size: 1em;
+    color: rgba(252, 245, 246, 0.788);
+    background-color: transparent;
+    cursor: pointer;
+    transition: width 0.3s ease-in-out;
+}
+
+.new-post {
+    margin-bottom: 1vmin;
+    padding: 1vmin;
+    max-height: max-content;
+    width: 65%;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    font-size: 1.7vmin;
+
+    background-color: rgba(251, 251, 255, 0.29);
+}
+
+.btn-new-post, .btn-filter  {
+    background-color: rgba(255, 251, 252, 0.445);
+
+    height: 8.5%;
+    width: 100%;
+    border-radius: 2em;
+    border-width: 0;
+    text-align: center;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+img {
+    padding: 1vmin 20%;
+    position: center;
+    width: 56vmin;
+    border-radius: 1em;
+}
+
+.feed-container {
+    margin-left: 1%;
+    width: 80%;
+    padding: 1vmin 6vmin 1vmin 6vmin;
+    align-self: center;
+
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(251, 251, 255, 0.29);
+    border-radius: 20px;
+}
+
+.post {
+    margin: 1vmin 5vmin 1vmin 5vmin;
+    padding: 1.5vmin;
+    width: 85%;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 5px;
+    font-size: 2vmin;
+    color: rgba(14, 13, 13, 0.884);
+    background-color: rgba(255, 251, 252, 0.445);
+}
+
+.post-info-content {
+    margin-right: 1vmin;
+    width: 70%;
+}
+
+.post-info {
+    padding: 0 1.3vmin;
+    width: 137%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.post-user-account {
+    margin-right: 3vmin;
+}
+
+.post-text-wrapper {
+    margin-top: 1vmin;
+    padding: 1.3vmin;
+    width: 137%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgba(255, 251, 252, 0.719);
+}
+
+.for-image {
+    margin-top: 1vmin;
+    padding: 1.3vmin;
+    width: 137%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.post-text {
+    overflow: hidden;
+    width: 70vmin;
+}
+
+.post-tags-buttons {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.post-tags-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.post-tags {
+    overflow: hidden;
+}
+
+.post-like {
+    margin-top: 1vmin;
+    max-width: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 2.3vmin;
+}
+
+.post-likes-count {
+    margin-right: 1vmin;
+}
+
+.btn-edit, .btn-trash {
+    border-width: 0;
+    font: inherit;
+    font-size: 1.2em;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.btn-more-posts {
+    width: 70%;
+    margin-top: 2vmin;
+    padding: 3vmin;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: rgba(252, 245, 246, 0.26);
+    font: inherit;
+    font-size: 1em;
+    color: inherit;
+    cursor: pointer;
+    align-self: center;
+}
+
+.like {
+    border-width: 0;
+    font: inherit;
+    font-size: 1.2em;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.like:hover {
+    transition: 0.1s;
+    color: rgba(189, 14, 14, 0.94);
+}
+
+.post-btn-like:hover, .btn-edit:hover, .btn-trash:hover, .btn-more-posts:hover, .btn-filter:hover, .btn-new-post:hover, .log-out:hover {
+    transition: 0.1s;
+    color: rgba(255, 255, 255, 0.945);
+}
